@@ -18,6 +18,7 @@ body {
     line-height: 1.5;
     text-align: left;
 
+
 }
 
 a {
@@ -42,7 +43,7 @@ a:hover, a:active {
 }
 
 .mainHeader img{
-    width: 30%;
+    width: 100%;
     height: auto;
     margin: 2% 0;
     align-content: center;
