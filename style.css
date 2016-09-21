@@ -1,0 +1,331 @@
+/*
+
+        Theme name: Responsive webpage HTML5/CSS3 Layout
+        Date: August 23 2016
+        Description: Basic HTML5/CSS layout built on a responsive framework
+        Version: 1.0
+        Author: Arafat Mohammed
+        Author URL: amdcloudguru.com
+
+*/
+
+
+body {
+
+    color: #000305;
+    font-size: 87.5%; /* Base font size is 14px */
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #CF5C3F;
+}
+
+a:hover, a:active {
+    background-color: #CF5C3F;
+    color: #FFF;
+}
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+
+}
+
+.mainHeader img{
+    width: 30%;
+    height: auto;
+    margin: 2% 0;
+    align-content: center;
+
+}
+
+.mainHeader nav{
+    background-color: #666;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+    
+}
+
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+    background-color: #CF5C3F;
+    text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+.maincontent {
+
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /*overflow: hidden;*/
+}
+
+.content{
+    width: 70%;
+    float: left;
+
+}
+
+.post-info{
+    font-family: "Lucida Sans";
+    font-style: italic;
+
+}
+
+.topcontent{
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 2%;
+    padding: 1% 3%;
+
+}
+
+.middlecontent{
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.bottomcontent{
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.top-sidebar{
+    width: 21%;
+    float: left;
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /*margin-left: 3%;*/
+    /*margin-top: 2%;*/
+    /*margin-bottom: 2%;*/
+    margin: 2% 0 2% 3%;
+    padding: 1% 3%;
+
+}
+
+.Middle-sidebar{
+    width: 21%;
+    float: left;
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 1% 3%;
+}
+
+.Bottom-sidebar{
+    width: 21%;
+    float: left;
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 1% 3%;
+}
+
+
+.main-footer{
+    width: 100%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin: 2% 0;
+}
+
+
+.main-footer p{
+    width: 92%;
+    margin: 10px auto;
+    color: #FFF;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+
+    .body {
+        /*margin: 0 auto;*/
+        width: 90%;
+        font-size: 95%;
+        /*clear: both;*/
+
+    .mainHeader img{
+        /*margin: 0 auto;*/
+        width: 100%;
+
+
+
+    }
+
+    .mainHeader nav{
+
+        height: 160px;
+
+    }
+
+    .mainHeader nav ul{
+        padding-left: 0
+
+    }
+
+    .mainHeader nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainHeader nav a:link, .mainHeader nav a:visited {
+
+        padding: 10px 25px;
+        height: 20px;
+        display: block;
+    }
+
+
+    }
+
+    .content{
+        width: 100%;
+        float: left;
+        margin-top: 2%;
+
+    }
+
+    .post-info{
+        font-family: "Lucida Sans";
+        font-style: italic;
+
+    }
+
+    .topcontent{
+        background-color: #C0C0C0;
+        /*border-radius: 5px;*/
+        /*-moz-border-radius: 5px;*/
+        /*-webkit-border-radius: 5px;*/
+        margin-top: 2%;
+        padding: 1% 3%;
+
+    }
+
+    .middlecontent{
+        background-color: #C0C0C0;
+        /*border-radius: 5px;*/
+        /*-moz-border-radius: 5px;*/
+        /*-webkit-border-radius: 5px;*/
+        padding: 3% 5%;
+        margin-top: 2%;
+    }
+
+    .bottomcontent{
+        background-color: #C0C0C0;
+        /*border-radius: 5px;*/
+        /*-moz-border-radius: 5px;*/
+        /*-webkit-border-radius: 5px;*/
+        padding: 3% 5%;
+        margin-top: 2%;
+    }
+
+    .top-sidebar, .Middle-sidebar, .Bottom-sidebar{
+        width: 94%;
+        background-color: #C0C0C0;
+        margin: 2% 0 2% 0%;
+        padding: 1% 3%;
+
+    }
+
+    /*.Middle-sidebar{*/
+        /*width: 21%;*/
+        /*float: left;*/
+        /*background-color: #C0C0C0;*/
+        /*border-radius: 5px;*/
+        /*-moz-border-radius: 5px;*/
+        /*-webkit-border-radius: 5px;*/
+        /*margin-left: 3%;*/
+        /*margin-bottom: 2%;*/
+        /*padding: 1% 3%;*/
+    /*}*/
+
+    /*.Bottom-sidebar{*/
+        /*width: 21%;*/
+        /*float: left;*/
+        /*background-color: #C0C0C0;*/
+        /*border-radius: 5px;*/
+        /*-moz-border-radius: 5px;*/
+        /*-webkit-border-radius: 5px;*/
+        /*margin-left: 3%;*/
+        /*margin-bottom: 2%;*/
+        /*padding: 1% 3%;*/
+    /*}*/
+
+
+    .main-footer{
+        width: 100%;
+        height: 40px;
+        float: left;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        background-color: #666;
+        margin: 2% 0;
+    }
+
+
+    .main-footer p{
+        width: 92%;
+        margin: 10px auto;
+        color: #FFF;
+
+    }
